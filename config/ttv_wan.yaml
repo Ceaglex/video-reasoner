@@ -1,0 +1,122 @@
+tag: "wan_reason_train"     
+
+# For logging setting
+tracker_name  : null
+output_dir  : ./log/wan_ft
+report_to   : wandb   
+ckpt_subdir : checkpoints
+logging_subdir: logging
+wandb_init_args:
+  mode      : "offline" # online / offline  
+  project   : "Wan"
+  name      : "wan_ft"
+  tags      : null
+  notes     : ""
+
+
+# From hf models and modification
+diffusion_ckpt_idx : /data2/zhangjiayi/video-reasoner/assets/Wan2.2-TI2V-5B
+t5_ckpt            : /data2/zhangjiayi/video-reasoner/assets/Wan2.2-TI2V-5B/models_t5_umt5-xxl-enc-bf16.pth
+t5_tokenizer       : /data2/zhangjiayi/video-reasoner/assets/Wan2.2-TI2V-5B/google/umt5-xxl
+vae_ckpt           : /data2/zhangjiayi/video-reasoner/assets/Wan2.2-TI2V-5B/Wan2.2_VAE.pth
+
+
+# VA Brideg trainable setting
+lora_config:
+  lora_load_path : null
+  use_lora: true
+  rank: 256  
+  lora_alpha: 64
+  lora_modules: ['self_attn.q',  'self_attn.k',  'self_attn.v',  'self_attn.o', 
+                 'cross_attn.q', 'cross_attn.k', 'cross_attn.v', 'cross_attn.o',
+                 'ffn.0', 'ffn.2', 'modulation']
+optimize_params : null # ["video_transformer.blocks.0.attn"] 
+
+
+
+# Training parameters
+resume_from_checkpoint  : null 
+# Seed and precision
+seed            : 42
+mixed_precision : bf16   # Options: ["null", "fp16", "bf16"]
+allow_tf32      : false 
+# Steps and saving
+num_train_epochs        : 50       
+max_train_steps         : null
+checkpointing_steps     : 100 #######################  
+checkpoints_total_limit : 80 
+# For batch and LR setting
+num_workers             : 4
+train_batch_size_local  : 1
+gradient_accumulation_steps : 1
+learning_rate   : 1e-4     #######################
+scale_lr        : false     
+lr_scheduler    : "cosine_with_restarts"  # Options: ["linear", "cosine", "cosine_with_restarts", "polynomial", "constant", "constant_with_warmup"]
+lr_warmup_steps : 1000
+lr_num_cycles   : 1
+lr_power        : 1.0
+# For optimizing training
+enable_slicing  : false 
+enable_tiling   : false 
+gradient_checkpointing  : true
+find_unused_parameters  : true  
+
+
+
+# Optimizer
+optimizer       : "adam"  # Options: ["adam", "adamw", "prodigy"]
+use_8bit_adam   : false    
+adam_beta1      : 0.9
+adam_beta2      : 0.95
+prodigy_beta3     : null   
+prodigy_decouple  : false  
+adam_weight_decay : 0.0001
+adam_epsilon      : 0.00000001
+max_grad_norm     : 1.0    # [1.0, 0.5] 
+prodigy_use_bias_correction : false  
+prodigy_safeguard_warmup    : false  
+
+
+# Training Setting
+num_train_timesteps: 1000
+fps : 24
+frame_num: 121      
+size : '832*480'
+patch_size : [1, 2, 2]
+vae_stride : [4, 16, 16]
+
+
+
+hy_dataloader:
+  video_index_file: "/data2/zhangjiayi/video-reasoner/data/meta/train_maze_5_easy.json"  
+  # dataset setting
+  load_mode: "video_pixel"
+  uncond_prob: 0.2
+  size: ${size}
+  patch_size: ${patch_size}
+  vae_stride: ${vae_stride}
+  fps : ${fps}                  
+  frame_num: ${frame_num}            
+  # DataLoader parameters
+  shuffle: true               
+  batch_size: ${train_batch_size_local}
+  num_workers: 0         #######################
+  prefetch_factor: null  #######################
+
+
+
+# Validation
+validation: 
+  eval_steps      : ${checkpointing_steps}
+  prompt_index_file: "/data2/zhangjiayi/video-reasoner/data/meta/test_maze_5_easy.json"  
+  num_train_timesteps: ${num_train_timesteps}
+  seed: ${seed}
+  num_inference_steps : 50
+  neg_prompt : "变化的背景，小红球不规则的移动，小红球触碰蓝色障碍，色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走"
+  guide_scale : 5
+  patch_size: ${patch_size}
+  vae_stride: ${vae_stride}
+  size: ${size}
+  fps : ${fps}                  
+  frame_num: ${frame_num}
+  sample_shift: 5                   
