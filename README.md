@@ -14,3 +14,4 @@
     - 根据Wan2.2-TI2V-5B的下载位置，修改diffusion_ckpt_idx, t5_ckpt, t5_tokenizer, vae_ckpt
     - 根据data_config，修改 hy_dataloader.video_index_file 以及 validation.prompt_index_file
     - 其他的num_train_epochs checkpointing_steps, learning_rate, lora_config, validation.neg_prompt 之类的超参数可以自己调
+    - 运行训练脚本 bash train.sh
