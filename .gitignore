@@ -1,6 +1,6 @@
 log
 assets
-data
+data/maze
 
 *.ipynb
 */__pycache__/*
@@ -17,5 +17,6 @@ data
 *.txt
 *.png
 *.safetensors
-nohup.out
 .git
+*.zip
+*.jpg

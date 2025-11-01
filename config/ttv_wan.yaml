@@ -100,8 +100,8 @@ hy_dataloader:
   # DataLoader parameters
   shuffle: true               
   batch_size: ${train_batch_size_local}
-  num_workers: 0         #######################
-  prefetch_factor: null  #######################
+  num_workers: ${num_workers}
+  prefetch_factor: 2
 
 
 
