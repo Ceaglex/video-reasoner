@@ -1,6 +1,7 @@
 log
 assets
 data/maze
+data/sokoban
 
 *.ipynb
 */__pycache__/*
@@ -20,3 +21,4 @@ data/maze
 .git
 *.zip
 *.jpg
+*.json
