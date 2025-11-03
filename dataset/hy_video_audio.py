@@ -77,12 +77,14 @@ class VideoAudioDataset(Dataset):
         start_frames = int(start_duration * self.fps)
         video_frames = video.shape[0] - start_frames
         target_frames = video_frames - (video_frames - 1) % 4  # Closest 4n+1
-        target_frames = min(target_frames, self.frame_num)
-
-        video = video[start_frames : start_frames + target_frames]    
+   
         if target_frames < self.frame_num:
-            print(f"Pad Frame from {video.shape[0]} to {self.frame_num}")
+            video = video[start_frames : start_frames + target_frames] 
+            # print(f"Pad Frame from {video.shape[0]} to {self.frame_num}")
             video = torch.cat([video, video[-1:].repeat(self.frame_num - target_frames, 1, 1, 1)], dim=0)
+        elif target_frames > self.frame_num:
+            frame_idx = torch.linspace(0, target_frames - 1, self.frame_num).long()
+            video = video[start_frames + frame_idx]
 
         # Permute to [C, T, H, W]
         video = video.permute(3, 0, 1, 2)

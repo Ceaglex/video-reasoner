@@ -1,0 +1,1330 @@
+{
+  "skin": "3",
+  "difficulty": "medium",
+  "total": 120,
+  "generated": 120,
+  "failed": 0,
+  "total_duplicates": 0,
+  "levels": [
+    {
+      "level_id": 1,
+      "files": {
+        "video": "medium_0001.mp4",
+        "image": "medium_0001.png",
+        "state": "medium_0001.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b262dc465b7970fbe10883ae2d163008"
+    },
+    {
+      "level_id": 2,
+      "files": {
+        "video": "medium_0002.mp4",
+        "image": "medium_0002.png",
+        "state": "medium_0002.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "53f663f5ffe71c7a120d7b230a733780"
+    },
+    {
+      "level_id": 3,
+      "files": {
+        "video": "medium_0003.mp4",
+        "image": "medium_0003.png",
+        "state": "medium_0003.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "f287ed4c14aa0a09df5afd7569c96116"
+    },
+    {
+      "level_id": 4,
+      "files": {
+        "video": "medium_0004.mp4",
+        "image": "medium_0004.png",
+        "state": "medium_0004.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "69de89aaac524a71c12a29453b2ce9e6"
+    },
+    {
+      "level_id": 5,
+      "files": {
+        "video": "medium_0005.mp4",
+        "image": "medium_0005.png",
+        "state": "medium_0005.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "5273881f14b2b43e987bb934e69ed69f"
+    },
+    {
+      "level_id": 6,
+      "files": {
+        "video": "medium_0006.mp4",
+        "image": "medium_0006.png",
+        "state": "medium_0006.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "3980e97eb227e84f4a13043d48e58537"
+    },
+    {
+      "level_id": 7,
+      "files": {
+        "video": "medium_0007.mp4",
+        "image": "medium_0007.png",
+        "state": "medium_0007.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b881921e3dbde73545d84cf762641134"
+    },
+    {
+      "level_id": 8,
+      "files": {
+        "video": "medium_0008.mp4",
+        "image": "medium_0008.png",
+        "state": "medium_0008.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "767cb2474c9a078b3fc396d9a2ecc0c3"
+    },
+    {
+      "level_id": 9,
+      "files": {
+        "video": "medium_0009.mp4",
+        "image": "medium_0009.png",
+        "state": "medium_0009.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "2cc80fd73d4dca001fef91adf7fb899f"
+    },
+    {
+      "level_id": 10,
+      "files": {
+        "video": "medium_0010.mp4",
+        "image": "medium_0010.png",
+        "state": "medium_0010.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b4b57cfb098e104cb24cd99df621379d"
+    },
+    {
+      "level_id": 11,
+      "files": {
+        "video": "medium_0011.mp4",
+        "image": "medium_0011.png",
+        "state": "medium_0011.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "dfc721b45619dba67eeb96eba7425dab"
+    },
+    {
+      "level_id": 12,
+      "files": {
+        "video": "medium_0012.mp4",
+        "image": "medium_0012.png",
+        "state": "medium_0012.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "6dd752d097cb3e66cc13b26a1e0b29d5"
+    },
+    {
+      "level_id": 13,
+      "files": {
+        "video": "medium_0013.mp4",
+        "image": "medium_0013.png",
+        "state": "medium_0013.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "dde5dea64592f42970f3fff7cb6e85a8"
+    },
+    {
+      "level_id": 14,
+      "files": {
+        "video": "medium_0014.mp4",
+        "image": "medium_0014.png",
+        "state": "medium_0014.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "1f5d502d36dda18ed295b5cce7eafca4"
+    },
+    {
+      "level_id": 15,
+      "files": {
+        "video": "medium_0015.mp4",
+        "image": "medium_0015.png",
+        "state": "medium_0015.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "0b2fbe5efcce0cce8ecb68d8ce968aed"
+    },
+    {
+      "level_id": 16,
+      "files": {
+        "video": "medium_0016.mp4",
+        "image": "medium_0016.png",
+        "state": "medium_0016.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "8714adf6f6a0983b7072ac3a2149bef7"
+    },
+    {
+      "level_id": 17,
+      "files": {
+        "video": "medium_0017.mp4",
+        "image": "medium_0017.png",
+        "state": "medium_0017.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "f21333e4a862680d5ffb7975d522a0b8"
+    },
+    {
+      "level_id": 18,
+      "files": {
+        "video": "medium_0018.mp4",
+        "image": "medium_0018.png",
+        "state": "medium_0018.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "f162720f43b8fff7fc643498736afd0b"
+    },
+    {
+      "level_id": 19,
+      "files": {
+        "video": "medium_0019.mp4",
+        "image": "medium_0019.png",
+        "state": "medium_0019.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "9d1cea28d1e4deb89a8080abb31a37da"
+    },
+    {
+      "level_id": 20,
+      "files": {
+        "video": "medium_0020.mp4",
+        "image": "medium_0020.png",
+        "state": "medium_0020.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "06a542c4c675a99036ab69b5dbd1a507"
+    },
+    {
+      "level_id": 21,
+      "files": {
+        "video": "medium_0021.mp4",
+        "image": "medium_0021.png",
+        "state": "medium_0021.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "807ae4e5f3ad98b28fe32ec05aac4d1e"
+    },
+    {
+      "level_id": 22,
+      "files": {
+        "video": "medium_0022.mp4",
+        "image": "medium_0022.png",
+        "state": "medium_0022.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "d8e131a3feb4ce0720e99192eaacd3b6"
+    },
+    {
+      "level_id": 23,
+      "files": {
+        "video": "medium_0023.mp4",
+        "image": "medium_0023.png",
+        "state": "medium_0023.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "fb48a608614796eefa3d88aba92f4d16"
+    },
+    {
+      "level_id": 24,
+      "files": {
+        "video": "medium_0024.mp4",
+        "image": "medium_0024.png",
+        "state": "medium_0024.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "ccf01cb2027896b2984cd153e18dbe81"
+    },
+    {
+      "level_id": 25,
+      "files": {
+        "video": "medium_0025.mp4",
+        "image": "medium_0025.png",
+        "state": "medium_0025.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "d1965a5f5fc07564107ad82d1abca3f7"
+    },
+    {
+      "level_id": 26,
+      "files": {
+        "video": "medium_0026.mp4",
+        "image": "medium_0026.png",
+        "state": "medium_0026.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "afb3357dfa85a99505100d5c71c9b820"
+    },
+    {
+      "level_id": 27,
+      "files": {
+        "video": "medium_0027.mp4",
+        "image": "medium_0027.png",
+        "state": "medium_0027.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "c905b91046761845331648ed6bf1010a"
+    },
+    {
+      "level_id": 28,
+      "files": {
+        "video": "medium_0028.mp4",
+        "image": "medium_0028.png",
+        "state": "medium_0028.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "3f82d6447d6e7f7bf6cbbaadda05e15b"
+    },
+    {
+      "level_id": 29,
+      "files": {
+        "video": "medium_0029.mp4",
+        "image": "medium_0029.png",
+        "state": "medium_0029.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "4109834c60558af90e4854690f90136f"
+    },
+    {
+      "level_id": 30,
+      "files": {
+        "video": "medium_0030.mp4",
+        "image": "medium_0030.png",
+        "state": "medium_0030.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "6a89c97fa41d668de7cf4ddd872c027b"
+    },
+    {
+      "level_id": 31,
+      "files": {
+        "video": "medium_0031.mp4",
+        "image": "medium_0031.png",
+        "state": "medium_0031.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "72d5372a0629fc1585647440525f0d41"
+    },
+    {
+      "level_id": 32,
+      "files": {
+        "video": "medium_0032.mp4",
+        "image": "medium_0032.png",
+        "state": "medium_0032.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "6f270032e3d95fc514605459e6700e5a"
+    },
+    {
+      "level_id": 33,
+      "files": {
+        "video": "medium_0033.mp4",
+        "image": "medium_0033.png",
+        "state": "medium_0033.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "095c393af64d6c2b7548d428eb4bea0a"
+    },
+    {
+      "level_id": 34,
+      "files": {
+        "video": "medium_0034.mp4",
+        "image": "medium_0034.png",
+        "state": "medium_0034.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "7b19a8b2de267553547cc55cf8aa4592"
+    },
+    {
+      "level_id": 35,
+      "files": {
+        "video": "medium_0035.mp4",
+        "image": "medium_0035.png",
+        "state": "medium_0035.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "05429a04fe72cc3f8fc976ea2c02b683"
+    },
+    {
+      "level_id": 36,
+      "files": {
+        "video": "medium_0036.mp4",
+        "image": "medium_0036.png",
+        "state": "medium_0036.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b196a65f4af88bf2507974170c16fa15"
+    },
+    {
+      "level_id": 37,
+      "files": {
+        "video": "medium_0037.mp4",
+        "image": "medium_0037.png",
+        "state": "medium_0037.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "eded5f121d46606cf756a1597aaf88bd"
+    },
+    {
+      "level_id": 38,
+      "files": {
+        "video": "medium_0038.mp4",
+        "image": "medium_0038.png",
+        "state": "medium_0038.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "2834526d1dc41b76721c042d523effa4"
+    },
+    {
+      "level_id": 39,
+      "files": {
+        "video": "medium_0039.mp4",
+        "image": "medium_0039.png",
+        "state": "medium_0039.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "0d5cae4ecf9d8b203e8f2ac4f35a789b"
+    },
+    {
+      "level_id": 40,
+      "files": {
+        "video": "medium_0040.mp4",
+        "image": "medium_0040.png",
+        "state": "medium_0040.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "146d064a2e2be7816a1fe129e356d795"
+    },
+    {
+      "level_id": 41,
+      "files": {
+        "video": "medium_0041.mp4",
+        "image": "medium_0041.png",
+        "state": "medium_0041.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b52d3d6686c7346c4d6186e066720dfc"
+    },
+    {
+      "level_id": 42,
+      "files": {
+        "video": "medium_0042.mp4",
+        "image": "medium_0042.png",
+        "state": "medium_0042.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b8afe59a75fc8b9e4575f610d160fa75"
+    },
+    {
+      "level_id": 43,
+      "files": {
+        "video": "medium_0043.mp4",
+        "image": "medium_0043.png",
+        "state": "medium_0043.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b9d239d9b53c2744181b5601928b34e9"
+    },
+    {
+      "level_id": 44,
+      "files": {
+        "video": "medium_0044.mp4",
+        "image": "medium_0044.png",
+        "state": "medium_0044.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "e910d5428cb9d7eb51c329a77db00141"
+    },
+    {
+      "level_id": 45,
+      "files": {
+        "video": "medium_0045.mp4",
+        "image": "medium_0045.png",
+        "state": "medium_0045.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "d74fcca2c350497bc9f2c31832844903"
+    },
+    {
+      "level_id": 46,
+      "files": {
+        "video": "medium_0046.mp4",
+        "image": "medium_0046.png",
+        "state": "medium_0046.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "04670ac072e4d7cd687a11534299a25b"
+    },
+    {
+      "level_id": 47,
+      "files": {
+        "video": "medium_0047.mp4",
+        "image": "medium_0047.png",
+        "state": "medium_0047.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "f7a826d695dab51b8489622f7ee7dc44"
+    },
+    {
+      "level_id": 48,
+      "files": {
+        "video": "medium_0048.mp4",
+        "image": "medium_0048.png",
+        "state": "medium_0048.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "c8393a0f385822c6910dbf30109d92cf"
+    },
+    {
+      "level_id": 49,
+      "files": {
+        "video": "medium_0049.mp4",
+        "image": "medium_0049.png",
+        "state": "medium_0049.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "ef0a02906d9900a0d7075837a1d57dfb"
+    },
+    {
+      "level_id": 50,
+      "files": {
+        "video": "medium_0050.mp4",
+        "image": "medium_0050.png",
+        "state": "medium_0050.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "ef0e04ad7f02a2d6edbc2cf04dbf5f97"
+    },
+    {
+      "level_id": 51,
+      "files": {
+        "video": "medium_0051.mp4",
+        "image": "medium_0051.png",
+        "state": "medium_0051.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "d12d39507a3f601c273c6988261f5dbb"
+    },
+    {
+      "level_id": 52,
+      "files": {
+        "video": "medium_0052.mp4",
+        "image": "medium_0052.png",
+        "state": "medium_0052.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b9f048ea6f8f24b0cdc2342eb6c0b10b"
+    },
+    {
+      "level_id": 53,
+      "files": {
+        "video": "medium_0053.mp4",
+        "image": "medium_0053.png",
+        "state": "medium_0053.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "1be11bf1e993d83d04c24d3918be209a"
+    },
+    {
+      "level_id": 54,
+      "files": {
+        "video": "medium_0054.mp4",
+        "image": "medium_0054.png",
+        "state": "medium_0054.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b17921ac2167c5ab69173665962531df"
+    },
+    {
+      "level_id": 55,
+      "files": {
+        "video": "medium_0055.mp4",
+        "image": "medium_0055.png",
+        "state": "medium_0055.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "5202579196060e9ae9523f1c75515258"
+    },
+    {
+      "level_id": 56,
+      "files": {
+        "video": "medium_0056.mp4",
+        "image": "medium_0056.png",
+        "state": "medium_0056.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "7f74ae285f1fc681023e456ea92f39f2"
+    },
+    {
+      "level_id": 57,
+      "files": {
+        "video": "medium_0057.mp4",
+        "image": "medium_0057.png",
+        "state": "medium_0057.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "84c173090430c9418d999e5d1963f6cb"
+    },
+    {
+      "level_id": 58,
+      "files": {
+        "video": "medium_0058.mp4",
+        "image": "medium_0058.png",
+        "state": "medium_0058.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "3eb2c066b4b0850e55fbb7910ab39af0"
+    },
+    {
+      "level_id": 59,
+      "files": {
+        "video": "medium_0059.mp4",
+        "image": "medium_0059.png",
+        "state": "medium_0059.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "99c0e0f0411f114f4c44fcbb66f4ccda"
+    },
+    {
+      "level_id": 60,
+      "files": {
+        "video": "medium_0060.mp4",
+        "image": "medium_0060.png",
+        "state": "medium_0060.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "ca803e9f020c8bbca4332c296301d54a"
+    },
+    {
+      "level_id": 61,
+      "files": {
+        "video": "medium_0061.mp4",
+        "image": "medium_0061.png",
+        "state": "medium_0061.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "731f86da67af41db9adf2ca33cfec397"
+    },
+    {
+      "level_id": 62,
+      "files": {
+        "video": "medium_0062.mp4",
+        "image": "medium_0062.png",
+        "state": "medium_0062.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "2038c85f52908f6baef6d49c1cf51b39"
+    },
+    {
+      "level_id": 63,
+      "files": {
+        "video": "medium_0063.mp4",
+        "image": "medium_0063.png",
+        "state": "medium_0063.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "7908d19d43d6fb7361e9e9d9ca36da83"
+    },
+    {
+      "level_id": 64,
+      "files": {
+        "video": "medium_0064.mp4",
+        "image": "medium_0064.png",
+        "state": "medium_0064.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "9b1d4bd477e00f66cef31fa78ad05872"
+    },
+    {
+      "level_id": 65,
+      "files": {
+        "video": "medium_0065.mp4",
+        "image": "medium_0065.png",
+        "state": "medium_0065.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "7fa1cd1e51db573ee54e11f130f9b973"
+    },
+    {
+      "level_id": 66,
+      "files": {
+        "video": "medium_0066.mp4",
+        "image": "medium_0066.png",
+        "state": "medium_0066.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "59ddef468ec55684ac7e8143a934e98b"
+    },
+    {
+      "level_id": 67,
+      "files": {
+        "video": "medium_0067.mp4",
+        "image": "medium_0067.png",
+        "state": "medium_0067.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "da68745321766578e1c636a02b7bd618"
+    },
+    {
+      "level_id": 68,
+      "files": {
+        "video": "medium_0068.mp4",
+        "image": "medium_0068.png",
+        "state": "medium_0068.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "1785e8652f00c74784dc28c69acfa732"
+    },
+    {
+      "level_id": 69,
+      "files": {
+        "video": "medium_0069.mp4",
+        "image": "medium_0069.png",
+        "state": "medium_0069.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "1968270c58e78b850856a32574b7736d"
+    },
+    {
+      "level_id": 70,
+      "files": {
+        "video": "medium_0070.mp4",
+        "image": "medium_0070.png",
+        "state": "medium_0070.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "ae80b17aa0d0e5cf3b43e9e2161c305c"
+    },
+    {
+      "level_id": 71,
+      "files": {
+        "video": "medium_0071.mp4",
+        "image": "medium_0071.png",
+        "state": "medium_0071.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "e4645c0778928f0e382ec3b433fab871"
+    },
+    {
+      "level_id": 72,
+      "files": {
+        "video": "medium_0072.mp4",
+        "image": "medium_0072.png",
+        "state": "medium_0072.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "2e06cfcb7e991a7a2727724c147275ba"
+    },
+    {
+      "level_id": 73,
+      "files": {
+        "video": "medium_0073.mp4",
+        "image": "medium_0073.png",
+        "state": "medium_0073.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "04e056d89613150e21409818cf26f1f2"
+    },
+    {
+      "level_id": 74,
+      "files": {
+        "video": "medium_0074.mp4",
+        "image": "medium_0074.png",
+        "state": "medium_0074.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "8e53e42fdef77215359efc43e2959676"
+    },
+    {
+      "level_id": 75,
+      "files": {
+        "video": "medium_0075.mp4",
+        "image": "medium_0075.png",
+        "state": "medium_0075.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "252b72dbbd60556bcaf5feac0abf3dce"
+    },
+    {
+      "level_id": 76,
+      "files": {
+        "video": "medium_0076.mp4",
+        "image": "medium_0076.png",
+        "state": "medium_0076.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "622f3f341656c139bc23640c9eaf18f6"
+    },
+    {
+      "level_id": 77,
+      "files": {
+        "video": "medium_0077.mp4",
+        "image": "medium_0077.png",
+        "state": "medium_0077.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "74633054e205b66f286cb461a558c7ff"
+    },
+    {
+      "level_id": 78,
+      "files": {
+        "video": "medium_0078.mp4",
+        "image": "medium_0078.png",
+        "state": "medium_0078.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "01d460a702ae43b1ae7f2a57181cfad4"
+    },
+    {
+      "level_id": 79,
+      "files": {
+        "video": "medium_0079.mp4",
+        "image": "medium_0079.png",
+        "state": "medium_0079.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b3bc7d19bac66ef20cbb911f8d5e041f"
+    },
+    {
+      "level_id": 80,
+      "files": {
+        "video": "medium_0080.mp4",
+        "image": "medium_0080.png",
+        "state": "medium_0080.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "42815fd127718f116c49c93eb3a4be37"
+    },
+    {
+      "level_id": 81,
+      "files": {
+        "video": "medium_0081.mp4",
+        "image": "medium_0081.png",
+        "state": "medium_0081.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "d5a9753fd01e7a3aee77a0f64d1ed512"
+    },
+    {
+      "level_id": 82,
+      "files": {
+        "video": "medium_0082.mp4",
+        "image": "medium_0082.png",
+        "state": "medium_0082.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "06d19e6d25e54e73db1b8b4d45dc06eb"
+    },
+    {
+      "level_id": 83,
+      "files": {
+        "video": "medium_0083.mp4",
+        "image": "medium_0083.png",
+        "state": "medium_0083.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "6312ac74a8155069133dbabec2266ebd"
+    },
+    {
+      "level_id": 84,
+      "files": {
+        "video": "medium_0084.mp4",
+        "image": "medium_0084.png",
+        "state": "medium_0084.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b9a758b962d197c31714e0f1afa1f497"
+    },
+    {
+      "level_id": 85,
+      "files": {
+        "video": "medium_0085.mp4",
+        "image": "medium_0085.png",
+        "state": "medium_0085.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "61bd2a3fa483bb80da87b8e8c6ee83e5"
+    },
+    {
+      "level_id": 86,
+      "files": {
+        "video": "medium_0086.mp4",
+        "image": "medium_0086.png",
+        "state": "medium_0086.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "f1cd692edeef9d82f0051ee6ae974951"
+    },
+    {
+      "level_id": 87,
+      "files": {
+        "video": "medium_0087.mp4",
+        "image": "medium_0087.png",
+        "state": "medium_0087.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "a70afc48c6598346ece1ff54be7c9598"
+    },
+    {
+      "level_id": 88,
+      "files": {
+        "video": "medium_0088.mp4",
+        "image": "medium_0088.png",
+        "state": "medium_0088.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "96424f1a3b0ed421b98b88b9dfbd36b8"
+    },
+    {
+      "level_id": 89,
+      "files": {
+        "video": "medium_0089.mp4",
+        "image": "medium_0089.png",
+        "state": "medium_0089.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "2b34b1ee12d50ab710268c95cb6aa121"
+    },
+    {
+      "level_id": 90,
+      "files": {
+        "video": "medium_0090.mp4",
+        "image": "medium_0090.png",
+        "state": "medium_0090.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "723c54d32c23890f1dcf806c3bda76f1"
+    },
+    {
+      "level_id": 91,
+      "files": {
+        "video": "medium_0091.mp4",
+        "image": "medium_0091.png",
+        "state": "medium_0091.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "4887c5b0c99d6637208a1221fa89dcdc"
+    },
+    {
+      "level_id": 92,
+      "files": {
+        "video": "medium_0092.mp4",
+        "image": "medium_0092.png",
+        "state": "medium_0092.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "dc4cd3c8f03a6b87f41b460f77e3a3c2"
+    },
+    {
+      "level_id": 93,
+      "files": {
+        "video": "medium_0093.mp4",
+        "image": "medium_0093.png",
+        "state": "medium_0093.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "a4c123ff8cc6854407d46dc38560a598"
+    },
+    {
+      "level_id": 94,
+      "files": {
+        "video": "medium_0094.mp4",
+        "image": "medium_0094.png",
+        "state": "medium_0094.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "483ccc6259cc3aee79fcb564ee75a724"
+    },
+    {
+      "level_id": 95,
+      "files": {
+        "video": "medium_0095.mp4",
+        "image": "medium_0095.png",
+        "state": "medium_0095.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "66c57d439708af38989b0ccadb47e56c"
+    },
+    {
+      "level_id": 96,
+      "files": {
+        "video": "medium_0096.mp4",
+        "image": "medium_0096.png",
+        "state": "medium_0096.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "944cf17deb5fb2248ddcd2fe57021e14"
+    },
+    {
+      "level_id": 97,
+      "files": {
+        "video": "medium_0097.mp4",
+        "image": "medium_0097.png",
+        "state": "medium_0097.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "4d520d5ef11f975ead9ad0224fc97824"
+    },
+    {
+      "level_id": 98,
+      "files": {
+        "video": "medium_0098.mp4",
+        "image": "medium_0098.png",
+        "state": "medium_0098.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "58ea234d736abce5f5aebe1d988564bf"
+    },
+    {
+      "level_id": 99,
+      "files": {
+        "video": "medium_0099.mp4",
+        "image": "medium_0099.png",
+        "state": "medium_0099.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "41859df95656c077faf447eb8c0e0ad6"
+    },
+    {
+      "level_id": 100,
+      "files": {
+        "video": "medium_0100.mp4",
+        "image": "medium_0100.png",
+        "state": "medium_0100.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "ca4eed3c0aa8482c65952222a39aa480"
+    },
+    {
+      "level_id": 101,
+      "files": {
+        "video": "medium_0101.mp4",
+        "image": "medium_0101.png",
+        "state": "medium_0101.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "81b9350ef1dbf9725ab11b9e986dd5df"
+    },
+    {
+      "level_id": 102,
+      "files": {
+        "video": "medium_0102.mp4",
+        "image": "medium_0102.png",
+        "state": "medium_0102.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "817521b3fbd7dffeaf7acc7404363071"
+    },
+    {
+      "level_id": 103,
+      "files": {
+        "video": "medium_0103.mp4",
+        "image": "medium_0103.png",
+        "state": "medium_0103.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "6869ef634a62cfa1358a883840ce315c"
+    },
+    {
+      "level_id": 104,
+      "files": {
+        "video": "medium_0104.mp4",
+        "image": "medium_0104.png",
+        "state": "medium_0104.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "9325c3e64db95982d8dca702ae66eff9"
+    },
+    {
+      "level_id": 105,
+      "files": {
+        "video": "medium_0105.mp4",
+        "image": "medium_0105.png",
+        "state": "medium_0105.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "535e35d27a8210bfa6ef484ee4a7a742"
+    },
+    {
+      "level_id": 106,
+      "files": {
+        "video": "medium_0106.mp4",
+        "image": "medium_0106.png",
+        "state": "medium_0106.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "3d6feb48c1d8e215c7fb3be4bfc4e73a"
+    },
+    {
+      "level_id": 107,
+      "files": {
+        "video": "medium_0107.mp4",
+        "image": "medium_0107.png",
+        "state": "medium_0107.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "0b44dd8f4f4ad6c57d9d92a2baedda44"
+    },
+    {
+      "level_id": 108,
+      "files": {
+        "video": "medium_0108.mp4",
+        "image": "medium_0108.png",
+        "state": "medium_0108.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b6723789f639d19cb4c752b120e4db2f"
+    },
+    {
+      "level_id": 109,
+      "files": {
+        "video": "medium_0109.mp4",
+        "image": "medium_0109.png",
+        "state": "medium_0109.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "4506e93a78c471cf49f8583db6192ffa"
+    },
+    {
+      "level_id": 110,
+      "files": {
+        "video": "medium_0110.mp4",
+        "image": "medium_0110.png",
+        "state": "medium_0110.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "3737efd28c75b3b1076f9a35eaba9b67"
+    },
+    {
+      "level_id": 111,
+      "files": {
+        "video": "medium_0111.mp4",
+        "image": "medium_0111.png",
+        "state": "medium_0111.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "3a883791a9ca13f9102d94436efaffc8"
+    },
+    {
+      "level_id": 112,
+      "files": {
+        "video": "medium_0112.mp4",
+        "image": "medium_0112.png",
+        "state": "medium_0112.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b181c1609064aaf06b0fc9a2d738eafc"
+    },
+    {
+      "level_id": 113,
+      "files": {
+        "video": "medium_0113.mp4",
+        "image": "medium_0113.png",
+        "state": "medium_0113.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "b6c6149ff0757af23f324b4281e279ea"
+    },
+    {
+      "level_id": 114,
+      "files": {
+        "video": "medium_0114.mp4",
+        "image": "medium_0114.png",
+        "state": "medium_0114.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "582a11fced1e91d003a7720f044ddd82"
+    },
+    {
+      "level_id": 115,
+      "files": {
+        "video": "medium_0115.mp4",
+        "image": "medium_0115.png",
+        "state": "medium_0115.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "9c90b05ca4f6311e84c350f951f4f0fa"
+    },
+    {
+      "level_id": 116,
+      "files": {
+        "video": "medium_0116.mp4",
+        "image": "medium_0116.png",
+        "state": "medium_0116.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "8f5ac2f9840a7f5e696d4c9ee91eb7a9"
+    },
+    {
+      "level_id": 117,
+      "files": {
+        "video": "medium_0117.mp4",
+        "image": "medium_0117.png",
+        "state": "medium_0117.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "3e86ee4a4b1d4e55bc4b70a1bd31a240"
+    },
+    {
+      "level_id": 118,
+      "files": {
+        "video": "medium_0118.mp4",
+        "image": "medium_0118.png",
+        "state": "medium_0118.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "e73c725bd99c9c163ebad82ab3777e1b"
+    },
+    {
+      "level_id": 119,
+      "files": {
+        "video": "medium_0119.mp4",
+        "image": "medium_0119.png",
+        "state": "medium_0119.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "4de5858fed812f32244ee72ec4eb3266"
+    },
+    {
+      "level_id": 120,
+      "files": {
+        "video": "medium_0120.mp4",
+        "image": "medium_0120.png",
+        "state": "medium_0120.json"
+      },
+      "status": "success",
+      "duplicate_retries": 0,
+      "level_hash": "045de261fe7c766631aec5c5ddbc9ee0"
+    }
+  ]
+}

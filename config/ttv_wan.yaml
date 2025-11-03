@@ -41,15 +41,15 @@ seed            : 42
 mixed_precision : bf16   # Options: ["null", "fp16", "bf16"]
 allow_tf32      : false 
 # Steps and saving
-num_train_epochs        : 50       
+num_train_epochs        : 100       
 max_train_steps         : null
-checkpointing_steps     : 100 #######################  
+checkpointing_steps     : 2000 #######################  
 checkpoints_total_limit : 80 
 # For batch and LR setting
 num_workers             : 4
 train_batch_size_local  : 1
 gradient_accumulation_steps : 1
-learning_rate   : 1e-4     #######################
+learning_rate   : 5e-5     #######################
 scale_lr        : false     
 lr_scheduler    : "cosine_with_restarts"  # Options: ["linear", "cosine", "cosine_with_restarts", "polynomial", "constant", "constant_with_warmup"]
 lr_warmup_steps : 1000
@@ -88,10 +88,10 @@ vae_stride : [4, 16, 16]
 
 
 hy_dataloader:
-  video_index_file: "/data2/zhangjiayi/video-reasoner/data/meta/train_maze_5_easy.json"  
+  video_index_file: "/data2/zhangjiayi/video-reasoner/data/meta/train_maze.json"  
   # dataset setting
   load_mode: "video_pixel"
-  uncond_prob: 0.2
+  uncond_prob: 0.5
   size: ${size}
   patch_size: ${patch_size}
   vae_stride: ${vae_stride}
@@ -108,7 +108,7 @@ hy_dataloader:
 # Validation
 validation: 
   eval_steps      : ${checkpointing_steps}
-  prompt_index_file: "/data2/zhangjiayi/video-reasoner/data/meta/test_maze_5_easy.json"  
+  prompt_index_file: "/data2/zhangjiayi/video-reasoner/data/meta/test_maze.json"  
   num_train_timesteps: ${num_train_timesteps}
   seed: ${seed}
   num_inference_steps : 50

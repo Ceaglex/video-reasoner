@@ -157,7 +157,7 @@ def training_step(batch,
                   vae_stride,
                   accelerator, ):
     prompt       = batch['prompt']      # list
-    img_paths    = batch['img_path']    # list
+    # img_paths    = batch['img_path']    # list
     videos_pixel = batch['video_pixel'] # tensor
     imgs         = batch['img']         # tensor
     seq_len      = int(batch['seq_len'][0])
@@ -182,31 +182,31 @@ def training_step(batch,
         timesteps = expand_timestep(t.squeeze(), mask, patch_size, seq_len, accelerator.device)
 
 
-        # # # # TODO : Check latent
-        # # # Decode latents to final outputs
-        # # out_video = video_vae.decode(latents)
-        # # for i in range(len(out_video)):
-        # #     save_video(
-        # #         tensor=out_video[i][None],
-        # #         save_file=f"test{i}.mp4",
-        # #         fps=fps, nrow=1, normalize=True, value_range=(-1, 1)
-        # #     )
-        # # out_video = video_vae.decode([latent_model_input])
-        # # for i in range(len(out_video)):
-        # #     save_video(
-        # #         tensor=out_video[i][None],
-        # #         save_file=f"test_latent{i}.mp4",
-        # #         fps=fps, nrow=1, normalize=True, value_range=(-1, 1)
-        # #     )
-        # # out_images = video_vae.decode(ref_latents)
-        # # for i in range(len(out_video)):
-        # #     img_tensor = out_images[i].squeeze(1)
-        # #     img_np = img_tensor.cpu().numpy()
-        # #     img_np = (img_np * 0.5 + 0.5)  # 恢复到 [0, 1]
-        # #     img_np = np.transpose(img_np, (1, 2, 0))  # (832, 832, 3)
-        # #     img_np = np.clip(img_np * 255, 0, 255).astype(np.uint8)
-        # #     img_pil = Image.fromarray(img_np)
-        # #     img_pil.save(f"test_ref{i}.jpg")  # 或 .png
+        # # # TODO : Check latent
+        # # Decode latents to final outputs
+        # out_video = video_vae.decode(latents)
+        # for i in range(len(out_video)):
+        #     save_video(
+        #         tensor=out_video[i][None],
+        #         save_file=f"test{i}.mp4",
+        #         fps=fps, nrow=1, normalize=True, value_range=(-1, 1)
+        #     )
+        # out_video = video_vae.decode([latent_model_input])
+        # for i in range(len(out_video)):
+        #     save_video(
+        #         tensor=out_video[i][None],
+        #         save_file=f"test_latent{i}.mp4",
+        #         fps=fps, nrow=1, normalize=True, value_range=(-1, 1)
+        #     )
+        # out_images = video_vae.decode(ref_latents)
+        # for i in range(len(out_video)):
+        #     img_tensor = out_images[i].squeeze(1)
+        #     img_np = img_tensor.cpu().numpy()
+        #     img_np = (img_np * 0.5 + 0.5)  # 恢复到 [0, 1]
+        #     img_np = np.transpose(img_np, (1, 2, 0))  # (832, 832, 3)
+        #     img_np = np.clip(img_np * 255, 0, 255).astype(np.uint8)
+        #     img_pil = Image.fromarray(img_np)
+        #     img_pil.save(f"test_ref{i}.jpg")  # 或 .png
         
 
     
